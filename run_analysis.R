@@ -25,8 +25,7 @@ samsung.headerRules <-c ('Acc:accelleration',
                          'iqr:interquartileRange',
                          'maxIndx:maxFrequencyMagnitudeIndex',
                          'mad:medialAbsoluteDeviation',
-                         'Mag:magnitude ',
-                         'angle:angle',
+                         'Mag:magnitude '
                          'std:standard',
                          '^t:timeDomainMeasure',
                          "^f:fastFourierTransform"
