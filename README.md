@@ -19,10 +19,12 @@ The codebook describing the variables in cleaned and output summary set.
 
 ### run_analysis.R
 
+
 Usage
 
   1. Extract the getdata-projectfiles-UCI HAR Dataset.zip into the working directory, retaining directory structure
   2. run the script with source('run_analyis.R') the script.
+  3. the script will attempt to install dependent packages automatically on first use (gdata, plyr, dplyr)
 
 Actions performed
  1. Merges the training and the test sets to create one data set.
