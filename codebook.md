@@ -26,14 +26,23 @@ The original variable names found in the dataset are not self describing. The sc
 the following substitution table on variable names:
 
   'Acc'     -> accelleration
+
   'arCoeff' -> autoRegressionCoefficients
+
   'Freq'    -> frequency
+
   'Gyro'    -> gyroscope
+
   'sma'     -> signalMagnitudeArea
+
   'iqr'     -> interquartileRange
+
   'maxIndx' -> maxFrequencyMagnitudeIndex
+
   'mad'     -> medialAbsoluteDeviation
+
   'Mag'     -> magnitude
+
   'std'     -> standard
 
 
@@ -52,97 +61,99 @@ The tidy summary exports the following data, which is grouped
 
 ### Statistical Means (Time Domain)  
 
-  "timeDomainMeasureBodyaccelleration.mean.X"
-  "timeDomainMeasureBodyaccelleration.mean.Y"
-  "timeDomainMeasureBodyaccelleration.mean.Z"
-  "timeDomainMeasureGravityaccelleration.mean.X"
-  "timeDomainMeasureGravityaccelleration.mean.Y"
-  "timeDomainMeasureGravityaccelleration.mean.Z"
-  "timeDomainMeasureBodyaccellerationJerk.mean.X"
-  "timeDomainMeasureBodyaccellerationJerk.mean.Y"
-  "timeDomainMeasureBodyaccellerationJerk.mean.Z"
-  "timeDomainMeasureBodygyroscope.mean.X"
-  "timeDomainMeasureBodygyroscope.mean.Y"
-  "timeDomainMeasureBodygyroscope.mean.Z"
-  "timeDomainMeasureBodygyroscopeJerk.mean.X"
-  "timeDomainMeasureBodygyroscopeJerk.mean.Y"
-  "timeDomainMeasureBodygyroscopeJerk.mean.Z"
-  "timeDomainMeasureBodyaccellerationmagnitude.mean"
-  "timeDomainMeasureGravityaccellerationmagnitude.mean"
-  "timeDomainMeasureBodyaccellerationJerkmagnitude.mean"
-  "timeDomainMeasureBodygyroscopemagnitude.mean"
-  "timeDomainMeasureBodygyroscopeJerkmagnitude.mean"
+  - "timeDomainMeasureBodyaccelleration.mean.X"  
+  - "timeDomainMeasureBodyaccelleration.mean.Y"  
+  - "timeDomainMeasureBodyaccelleration.mean.Z"  
+  - "timeDomainMeasureGravityaccelleration.mean.X"
+  - "timeDomainMeasureGravityaccelleration.mean.Y"
+  - "timeDomainMeasureGravityaccelleration.mean.Z"
+  - "timeDomainMeasureBodyaccellerationJerk.mean.X"
+  - "timeDomainMeasureBodyaccellerationJerk.mean.Y"
+  - "timeDomainMeasureBodyaccellerationJerk.mean.Z"
+  - "timeDomainMeasureBodygyroscope.mean.X"
+  - "timeDomainMeasureBodygyroscope.mean.Y"
+  - "timeDomainMeasureBodygyroscope.mean.Z"
+  - "timeDomainMeasureBodygyroscopeJerk.mean.X"
+  - "timeDomainMeasureBodygyroscopeJerk.mean.Y"
+  - "timeDomainMeasureBodygyroscopeJerk.mean.Z"
+  - "timeDomainMeasureBodyaccellerationmagnitude.mean"
+  - "timeDomainMeasureGravityaccellerationmagnitude.mean"
+  - "timeDomainMeasureBodyaccellerationJerkmagnitude.mean"
+  - "timeDomainMeasureBodygyroscopemagnitude.mean"
+  - "timeDomainMeasureBodygyroscopeJerkmagnitude.mean"
 
 ### Standard Deviations (Time Domain)
-  "timeDomainMeasureBodyaccelleration.standard.X"
-  "timeDomainMeasureBodyaccelleration.standard.Y"
-  "timeDomainMeasureBodyaccelleration.standard.Z"
-  "timeDomainMeasureGravityaccelleration.standard.X"
-  "timeDomainMeasureGravityaccelleration.standard.Y"
-  "timeDomainMeasureGravityaccelleration.standard.Z"
-  "timeDomainMeasureBodyaccellerationJerk.standard.X"
-  "timeDomainMeasureBodyaccellerationJerk.standard.Y"
-  "timeDomainMeasureBodyaccellerationJerk.standard.Z"
-  "timeDomainMeasureBodygyroscope.standard.X"
-  "timeDomainMeasureBodygyroscope.standard.Y"
-  "timeDomainMeasureBodygyroscope.standard.Z"
-  "timeDomainMeasureBodygyroscopeJerk.standard.X"
-  "timeDomainMeasureBodygyroscopeJerk.standard.Y"
-  "timeDomainMeasureBodygyroscopeJerk.standard.Z"
-  "timeDomainMeasureBodyaccellerationmagnitude.standard"
-  "timeDomainMeasureGravityaccellerationmagnitude.standard"
-  "timeDomainMeasureBodyaccellerationJerkmagnitude.standard"
-  "timeDomainMeasureBodygyroscopemagnitude.standard"
-  "timeDomainMeasureBodygyroscopeJerkmagnitude.standard"
+  - "timeDomainMeasureBodyaccelleration.standard.X"
+  - "timeDomainMeasureBodyaccelleration.standard.Y"
+  - "timeDomainMeasureBodyaccelleration.standard.Z"
+  - "timeDomainMeasureGravityaccelleration.standard.X"
+  - "timeDomainMeasureGravityaccelleration.standard.Y"
+  - "timeDomainMeasureGravityaccelleration.standard.Z"
+  - "timeDomainMeasureBodyaccellerationJerk.standard.X"
+  - "timeDomainMeasureBodyaccellerationJerk.standard.Y"
+  - "timeDomainMeasureBodyaccellerationJerk.standard.Z"
+  - "timeDomainMeasureBodygyroscope.standard.X"
+  - "timeDomainMeasureBodygyroscope.standard.Y"
+  - "timeDomainMeasureBodygyroscope.standard.Z"
+  - "timeDomainMeasureBodygyroscopeJerk.standard.X"
+  - "timeDomainMeasureBodygyroscopeJerk.standard.Y"
+  - "timeDomainMeasureBodygyroscopeJerk.standard.Z"
+  - "timeDomainMeasureBodyaccellerationmagnitude.standard"
+  - "timeDomainMeasureGravityaccellerationmagnitude.standard"
+  - "timeDomainMeasureBodyaccellerationJerkmagnitude.standard"
+  - "timeDomainMeasureBodygyroscopemagnitude.standard"
+  - "timeDomainMeasureBodygyroscopeJerkmagnitude.standard"
 
 
 ### Fast Fourier Transformations (Means)
-  "fastFourierTransformBodyaccelleration.mean.X"
-  "fastFourierTransformBodyaccelleration.mean.Y"
-  "fastFourierTransformBodyaccelleration.mean.Z"
-  "fastFourierTransformBodyaccelleration.meanfrequency.X"
-  "fastFourierTransformBodyaccelleration.meanfrequency.Y"
-  "fastFourierTransformBodyaccelleration.meanfrequency.Z"
-  "fastFourierTransformBodyaccellerationJerk.mean.X"
-  "fastFourierTransformBodyaccellerationJerk.mean.Y"
-  "fastFourierTransformBodyaccellerationJerk.mean.Z"
-  "fastFourierTransformBodyaccellerationJerk.meanfrequency.X"
-  "fastFourierTransformBodyaccellerationJerk.meanfrequency.Y"
-  "fastFourierTransformBodyaccellerationJerk.meanfrequency.Z"
-  "fastFourierTransformBodygyroscope.mean.X"
-  "fastFourierTransformBodygyroscope.mean.Y"
-  "fastFourierTransformBodygyroscope.mean.Z"
-  "fastFourierTransformBodygyroscope.meanfrequency.X"
-  "fastFourierTransformBodygyroscope.meanfrequency.Y"
-  "fastFourierTransformBodygyroscope.meanfrequency.Z"
-  "fastFourierTransformBodyaccellerationmagnitude.mean"
-  "fastFourierTransformBodyaccellerationmagnitude.meanfrequency"
-  "fastFourierTransformBodyBodyaccellerationJerkmagnitude.mean"
-  "fastFourierTransformBodyBodyaccellerationJerkmagnitude.meanfrequency"
-  "fastFourierTransformBodyBodygyroscopemagnitude.mean"
-  "fastFourierTransformBodyBodygyroscopemagnitude.meanfrequency"
-  "fastFourierTransformBodyBodygyroscopeJerkmagnitude.mean"
-  "fastFourierTransformBodyBodygyroscopeJerkmagnitude.meanfrequency"
+  - "fastFourierTransformBodyaccelleration.mean.X"
+  - "fastFourierTransformBodyaccelleration.mean.Y"
+  - "fastFourierTransformBodyaccelleration.mean.Z"
+  - "fastFourierTransformBodyaccelleration.meanfrequency.X"
+  - "fastFourierTransformBodyaccelleration.meanfrequency.Y"
+  - "fastFourierTransformBodyaccelleration.meanfrequency.Z"
+  - "fastFourierTransformBodyaccellerationJerk.mean.X"
+  - "fastFourierTransformBodyaccellerationJerk.mean.Y"
+  - "fastFourierTransformBodyaccellerationJerk.mean.Z"
+  - "fastFourierTransformBodyaccellerationJerk.meanfrequency.X"
+  - "fastFourierTransformBodyaccellerationJerk.meanfrequency.Y"
+  - "fastFourierTransformBodyaccellerationJerk.meanfrequency.Z"
+  - "fastFourierTransformBodygyroscope.mean.X"
+  - "fastFourierTransformBodygyroscope.mean.Y"
+  - "fastFourierTransformBodygyroscope.mean.Z"
+  - "fastFourierTransformBodygyroscope.meanfrequency.X"
+  - "fastFourierTransformBodygyroscope.meanfrequency.Y"
+  - "fastFourierTransformBodygyroscope.meanfrequency.Z"
+  - "fastFourierTransformBodyaccellerationmagnitude.mean"
+  - "fastFourierTransformBodyaccellerationmagnitude.meanfrequency"
+  - "fastFourierTransformBodyBodyaccellerationJerkmagnitude.mean"
+  - "fastFourierTransformBodyBodyaccellerationJerkmagnitude.meanfrequency"
+  - "fastFourierTransformBodyBodygyroscopemagnitude.mean"
+  - "fastFourierTransformBodyBodygyroscopemagnitude.meanfrequency"
+  - "fastFourierTransformBodyBodygyroscopeJerkmagnitude.mean"
+  - "fastFourierTransformBodyBodygyroscopeJerkmagnitude.meanfrequency"
 
 
 ### Fast Fourier Transformations (Standard Deviation)
-  "fastFourierTransformBodyaccelleration.standard.X"
-  "fastFourierTransformBodyaccelleration.standard.Y"
-  "fastFourierTransformBodyaccelleration.standard.Z"
-  "fastFourierTransformBodyaccellerationJerk.standard.X"
-  "fastFourierTransformBodyaccellerationJerk.standard.Y"
-  "fastFourierTransformBodyaccellerationJerk.standard.Z"
-  "fastFourierTransformBodygyroscope.standard.X"
-  "fastFourierTransformBodygyroscope.standard.Y"
-  "fastFourierTransformBodygyroscope.standard.Z"
-  "fastFourierTransformBodyaccellerationmagnitude.standard"
-  "fastFourierTransformBodyBodyaccellerationJerkmagnitude.standard"
-  "fastFourierTransformBodyBodygyroscopemagnitude.standard"
-  "fastFourierTransformBodyBodygyroscopeJerkmagnitude.standard"
+  - "fastFourierTransformBodyaccelleration.standard.X"
+  - "fastFourierTransformBodyaccelleration.standard.Y"
+  - "fastFourierTransformBodyaccelleration.standard.Z"
+  - "fastFourierTransformBodyaccellerationJerk.standard.X"
+  - "fastFourierTransformBodyaccellerationJerk.standard.Y"
+  - "fastFourierTransformBodyaccellerationJerk.standard.Z"
+  - "fastFourierTransformBodygyroscope.standard.X"
+  - "fastFourierTransformBodygyroscope.standard.Y"
+  - "fastFourierTransformBodygyroscope.standard.Z"
+  - "fastFourierTransformBodyaccellerationmagnitude.standard"
+  - "fastFourierTransformBodyBodyaccellerationJerkmagnitude.standard"
+  - "fastFourierTransformBodyBodygyroscopemagnitude.standard"
+  - "fastFourierTransformBodyBodygyroscopeJerkmagnitude.standard"
 
 
-# - Human Activity Recognition Using Smartphones Dataset
 
+# Original Raw Dataset descriptor
+
+Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
