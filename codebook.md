@@ -52,6 +52,8 @@ is prefixed with fastFourierTransform.
 Finally, any excess whitespaces and punctuation are stripped from variable names
 
 
+For the record, camelCase variable names were chosen intentionally for readability. 
+
 ## Output data
 
 The tidy summary exports the following data, which is grouped
